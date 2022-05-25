@@ -38,6 +38,10 @@ SOFTWARE.
     ```
     ls -alR
     ```
+    -Or
+    ```
+    ls -a -l -R
+    ```
 5) 🌠 Execute the program with command:
     ```
     ./main
