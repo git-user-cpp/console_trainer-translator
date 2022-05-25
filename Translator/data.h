@@ -31,7 +31,7 @@ SOFTWARE.
 #include <algorithm>
 #include <ctime>
 #include <ostream>
-#define testing 1 //to check the I / O file
+// #define testing 1 //to check the I / O file
 
 struct MyStructure
 {
