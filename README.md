@@ -38,7 +38,7 @@ SOFTWARE.
     ```
     ls -alR
     ```
-    Or
+    - Or
     ```
     ls -a -l -R
     ```
