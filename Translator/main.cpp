@@ -254,7 +254,7 @@ int main()
     }
 
     std::cout << doubleDelimiter << std::endl;
-    std::cout << "Programm stopped" << std::endl;
+    std::cout << "The programm is stopped" << std::endl;
 
 return 0;
 }

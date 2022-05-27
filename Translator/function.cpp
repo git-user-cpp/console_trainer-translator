@@ -51,7 +51,7 @@ void saveData(std::vector<Word> &words, const std::string &file_name)
 void readData(std::vector<Word> &words, const std::string &file_name)
 {
     Word word; //variable for input into the vector
-    char str[50]; //string to read from a file
+    char str[510]; //string to read from a file
     int counter = 0;
     int flag = 0;
 
@@ -60,7 +60,7 @@ void readData(std::vector<Word> &words, const std::string &file_name)
 
         if(reading)
         {
-            while (reading.getline(str, 50, '\n')) //reading each line of the file
+            while (reading.getline(str, 510, '\n')) //reading each line of the file
             {
                 counter++;
 
