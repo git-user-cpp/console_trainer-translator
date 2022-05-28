@@ -47,7 +47,7 @@ SOFTWARE.
     ./main
     ```
 6) 👷 Select the desired function by pressing **1** or **2** or **3** or **4** + **Enter**. If you want to close the app, press **0** + **Enter** in main menu.
-7) To create a new file with other words, in mode *"2) Entry new words"* write name for new file in format **new.txt**. After you have entered all new words, the file will appear in current directory.
+7) To create a new file with other words, in mode *"2) Entry new words"* write name for new file in format **new.txt** After you have entered all new words, the file will appear in current directory.
 8) To read words from file choose *"3) Read the words"* mode and write name of the file to read.
 9) To use test choose *"1) Start test"* mode, enter name of the file and after passing you'll get a mark.
 10) To get some information about program creator or license choose *"4) Info about the creator and license"* mode.
