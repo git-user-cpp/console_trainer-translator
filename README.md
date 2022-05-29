@@ -1,4 +1,4 @@
-# Application for learning translation v1.0.1
+# Application for learning translation v1.0.2
 This program is implemented in the C ++ programming language for Linux systems. Created to improve foreign languages skills.
 
 ## ⚠️ LICENSE ⚠️
