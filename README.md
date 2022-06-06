@@ -1,4 +1,4 @@
-# Application for learning translation v1.0.3
+# Application for learning translation v1.1.3
 :boom: This training translator program is implemented in C++ programming language for Linux systems. Created to improve foreign languages skills. :boom:
 
 ## ⚠️ LICENSE ⚠️
