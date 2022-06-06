@@ -41,10 +41,14 @@ void saveData(std::vector<Word> &words, const std::string &file_name)
         }
         else
         {
-            std::cout << "Error(file recording)" << std::endl;
+            std::cout   << " _____________________________________________________________" << std::endl
+                        << "|                    Error(file recording)                    |" << std::endl
+                        << "|_____________________________________________________________|" << std::endl;
         }
 
-    std::cout << "Data is recorded" << std::endl;
+    std::cout   << " _____________________________________________________________" << std::endl
+                << "|                       Data is recorded                      |" << std::endl
+                << "|_____________________________________________________________|" << std::endl;
 }
 
 //to read data from file to vector
@@ -85,10 +89,14 @@ void readData(std::vector<Word> &words, const std::string &file_name)
         }
         else
         {
-            std::cout << "Error(file reading)" << std::endl;
+            std::cout   << " _____________________________________________________________" << std::endl
+                        << "|                     Error(file reading)                     |" << std::endl
+                        << "|_____________________________________________________________|" << std::endl;
         }
 
-    std::cout << "Data is red" << std::endl;
+    std::cout   << " _____________________________________________________________" << std::endl
+                << "|                         Data is red                         |" << std::endl
+                << "|_____________________________________________________________|" << std::endl;
 }
 
 //function for test mode
@@ -97,11 +105,13 @@ void test(std::vector<Word> &words)
     std::string answer;
     int score = 0;
 
+    std::cout << " _____________________________________________________________" << std::endl;
+
     for(auto &element : words)
     {
-        std::cout << "Write a word on English: ";
+        std::cout << "| Write a word on English: ";
         std::cout << element.Get_translation() << std::endl;
-        std::cout << "Your answer: ";
+        std::cout << "| Your answer: ";
         getline(std::cin, answer);
 
         //lambda function for evaluation
@@ -115,17 +125,21 @@ void test(std::vector<Word> &words)
         result(); //calling the lambda function
     }
 
-    std::cout << "========================================================================" << std::endl;
+    std::cout << "|_____________________________________________________________" << std::endl;
     
     //derivation of the general estimation
-    std::cout << "Your mark is: " << score << "/" << words.capacity() << std::endl;
+    std::cout   << " _____________________________________________________________" << std::endl
+                << "| Your mark is: " << score << "/" << words.capacity() << std::endl
+                << "|_____________________________________________________________" << std::endl;
 }
 
 //output data from the vector
 void readFile(std::vector<Word> &words)
 {
+    std::cout   << " _____________________________________________________________" << std::endl;
     for(auto &element : words)
     {
-        std::cout << element.Get_word() << " " << element.Get_translation() << std::endl;
+        std::cout << "| " << element.Get_word() << "\t-->\t" << element.Get_translation() << std::endl;
     }
+    std::cout   << "|_____________________________________________________________" << std::endl;
 }
