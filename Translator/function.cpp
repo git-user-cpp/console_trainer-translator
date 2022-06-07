@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "function.h"
+#include "function.hpp"
 
 //to save data from vector to file
 void saveData(std::vector<Word> &words, const std::string &file_name)

@@ -22,49 +22,46 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-#include "data.hpp"
+#pragma once
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
+#include <sstream>
+#include <algorithm>
+#include <ctime>
+#include <ostream>
+// #define testing 1 //to check the I / O file
 
-Word::Word()
-{   words.word = "";
-    words.w_translation = "";
+struct MyStructure
+{
+    std::string word, w_translation;
 };
 
-//overloaded two-parameterized constructor for assigning variables
-Word::Word(std::string str1, std::string str2)
+class Word
 {
-    this->words.word = str1;
-    this->words.w_translation = str2;
+private:
+    MyStructure words;
+
+public:
+
+    Word();
+
+    //overloaded two-parameterized constructor
+    Word(std::string str1, std::string str2);
+
+    ~Word();
+
+    //for data entry
+    void DataEntry(std::string str1, std::string str2);
+
+    //setters
+    void Set_word(char w[]);
+    void Set_translation(char w[]);
+
+    //getters
+    std::string Get_word();
+    std::string Get_translation();
 };
 
-Word::~Word(){};
-
-//for data entry
-void Word::DataEntry(std::string str1, std::string str2)
-{
-    this->words.word = str1;
-    this->words.w_translation = str2;
-}
-
-//for setting the word
-void Word::Set_word(char w[])
-{
-    this->words.word = w;
-}
-
-//for setting the word translation
-void Word::Set_translation(char w[])
-{
-    this->words.w_translation = w;
-}
-
-//for getting the word
-std::string Word::Get_word()
-{
-    return words.word;
-}
-
-//for getting the word translation
-std::string Word::Get_translation()
-{
-    return words.w_translation;
-}
+#include "function.hpp"
