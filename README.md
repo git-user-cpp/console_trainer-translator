@@ -1,4 +1,24 @@
 # Application for learning translation v1.1.4
+
+![GitHub all releases](https://img.shields.io/github/downloads/git-user-cpp/console_trainer-translator/total?color=00FF00&logo=GitHub&logoColor=00FF00&style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/git-user-cpp/console_trainer-translator?color=FFFF00&logo=GitHub&logoColor=FFFF00&style=plastic)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/git-user-cpp/console_trainer-translator?color=ff0000&logo=GitHub&logoColor=ff0000)
+![GitHub Release Date](https://img.shields.io/github/release-date/git-user-cpp/console_trainer-translator?color=ff4500&logo=GitHub&logoColor=ff4500&style=plastic)
+![GitHub](https://img.shields.io/github/license/git-user-cpp/console_trainer-translator?color=FFD700&logo=GitHub&logoColor=FFD700&style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/git-user-cpp/console_trainer-translator?color=7FFFD4&logo=GitHub&logoColor=7FFFD4&style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/git-user-cpp/console_trainer-translator?color=red&logo=GitHub&logoColor=red&style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/git-user-cpp/console_trainer-translator?color=00BFFF&logo=GitHub&logoColor=00BFFF&style=plastic)
+
+![GitHub contributors](https://img.shields.io/github/contributors-anon/git-user-cpp/console_trainer-translator?color=ff0000&logo=GitHub&logoColor=ff0000&style=plastic)
+![GitHub watchers](https://img.shields.io/github/watchers/git-user-cpp/console_trainer-translator?color=DC143C&logo=GitHub&logoColor=DC143C&style=plastic)
+![GitHub followers](https://img.shields.io/github/followers/git-user-cpp?color=7FFF00&logo=GitHub&logoColor=7FFF00&style=plastic)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/git-user-cpp?color=00FFFF&logo=GitHub&logoColor=00FFFF&style=plastic)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/git-user-cpp/console_trainer-translator?color=98FB98&logo=GitHub&logoColor=98FB98&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/git-user-cpp/console_trainer-translator?color=98FB98&logo=GitHub&logoColor=98FB98&style=plastic)
+
+#
 :boom: This training translator program is implemented in C++ programming language for Linux systems. Created to improve foreign languages skills. :boom:
 
 ## ⚠️ LICENSE ⚠️
