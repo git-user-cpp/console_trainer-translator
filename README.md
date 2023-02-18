@@ -18,8 +18,11 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/git-user-cpp/console_trainer-translator?color=98FB98&logo=GitHub&logoColor=98FB98&style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/git-user-cpp/console_trainer-translator?color=98FB98&logo=GitHub&logoColor=98FB98&style=plastic)
 
-#
+---
+
 :boom: This training translator program is implemented in C++ programming language for Linux systems. Created to improve foreign languages skills. :boom:
+
+---
 
 ## ⚠️ LICENSE ⚠️
 MIT License
@@ -43,6 +46,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
 
 ## 💻 How to use this app 💻
 
@@ -71,3 +76,5 @@ SOFTWARE.
 8) To read words from file choose *"3) Read the words"* mode and write name of the file to read.
 9) To use test choose *"1) Start test"* mode, enter name of the file and after passing you'll get a mark.
 10) To get some information about program creator or license choose *"4) Info about the creator and license"* mode.
+
+---
